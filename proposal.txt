@@ -1,0 +1,60 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+
+DailyTasks: A Daily Task Manager with Deadlines and Reminders
+
+2. What real-world problem will your program address or help to solve?
+
+The To-Do List Manager program can help individuals manage their tasks and responsibilities more effectively, improve their time management skills, and increase their productivity.
+
+3. What will you learn from developing this program?
+
+Developing a To-Do List Manager program can help you learn several important skills and concepts related to programming, including:
+
+User input and output: You will learn how to get input from the user, display output, and handle user interactions.
+
+Data structures: You will learn how to work with lists, dictionaries, and other data structures to store and organize task-related information.
+
+Functions: You will learn how to define and use functions to perform specific tasks, such as adding or deleting tasks from the to-do list.
+
+File handling: You will learn how to read from and write to files, which can be useful for saving and loading task lists.
+
+GUI programming: You will learn how to create a graphical user interface (GUI) to make the program more user-friendly and interactive.
+
+Time management: You will learn about the importance of time management and how to incorporate it into
+your program's design to help users stay organized and productive.
+
+4. What Python modules will your program use?
+
+I will use various Python modules such as tkinter for the graphical user interface, datetime to handle
+date and time-related operations, sqlite3 to manage a database for storing and retrieving tasks, and
+threading for running tasks in the background while I continue to work on other tasks.
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. Will you separate your Python program into functions that each
+perform a single task?
+
+I will start by identifying the different tasks that the program needs to perform and group them into
+logical units. Then, for each of these units, I will write a separate function that takes input parameters,
+performs the necessary operations, and returns a result.
+
+It's important to keep in mind that reusable functions should not get user input or print results. Instead,
+they should have parameters and return a result, which makes them easier to test and reuse in other parts
+of the program. Functions that get user input and print results are still important but are not as easily reusable.
+
+6. Will you write test functions to test at least two of your program
+functions?
+
+Yes
